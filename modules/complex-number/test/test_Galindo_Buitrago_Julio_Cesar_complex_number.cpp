@@ -18,7 +18,7 @@ TEST(Galindo_Julio_ComplexNumberTest, Distributive_property) {
     ComplexNumber z2(re2, im2);
     ComplexNumber z3(re3, im3);
     ComplexNumber res1 = z1 * (z2 + z3);
-    ComplexNumber res2 = z1 * z2 + z1 * z3;
+    ComplexNumber res2 = (z1 * z2) + (z1 * z3);
 
     // Assert
     ASSERT_EQ(res1, res2);
