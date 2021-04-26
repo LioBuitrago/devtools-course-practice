@@ -1,5 +1,7 @@
 // Copyright 2021 Galindo Buitrago Julio Cesar
+
 #include <gtest/gtest.h>
+
 #include "include/Knight_Moves.h"
 
 TEST(Galindo_Knight_Moves, Minimum_without_obstacles_i) {

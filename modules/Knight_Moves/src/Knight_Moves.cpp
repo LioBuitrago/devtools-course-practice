@@ -1,5 +1,7 @@
 // Copyright 2021 Galindo Buitrago Julio Cesar
+
 #include <iostream>
+
 #include "include/Knight_Moves.h"
 
 int KM::resolucion(int x, int y) {
