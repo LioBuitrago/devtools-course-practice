@@ -9,9 +9,9 @@
 int KM::resolucion(int x, int y) {
     if (x + y == 0) return 0;
     if (x + y == 2) return 2;
-    pair <int, int> guardado({x, y});
+    std::pair<int, int> guardado({x, y});
     if (alfa.count(guardado)) return alfa[guardado];
-    return alfa[guardado] = min(resolucion(abs(x - 1),
+    return alfa[guardado] = std::min(resolucion(abs(x - 1),
         abs(y - 2)), resolucion(abs(x - 2), abs(y - 1))) + 1;
 }
 

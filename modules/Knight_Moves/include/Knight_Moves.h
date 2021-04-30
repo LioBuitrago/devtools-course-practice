@@ -7,10 +7,14 @@
 #include <iostream>
 #include <map>
 #include <utility>
+#include <algorithm>
+
+typedef std::pair<int, int> my_key_type;
+typedef std::map<my_key_type, int> my_map_type;
 
 class KM {
  public:
-    map < pair <int, int>, int > alfa;
+    my_map_type alfa;
     int resolucion(int x, int y);
     int valor_minimo_knight(int x, int y);
 };
