@@ -3,7 +3,6 @@
 #ifndef MODULES_KNIGHT_MOVES_INCLUDE_KNIGHT_MOVES_H_
 #define MODULES_KNIGHT_MOVES_INCLUDE_KNIGHT_MOVES_H_
 
-#include <bits/stdc++.h>
 #include <iostream>
 #include <map>
 #include <utility>
