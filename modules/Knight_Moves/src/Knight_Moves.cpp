@@ -7,7 +7,7 @@
 #include "include/Knight_Moves.h"
 
 int KM::operation(int x, int y) {
-    while(true){
+    while (true) {
         if (x + y == 0) {return 0;}
         if (x + y == 2) {return 2;}
         std::pair<int, int> saved({x, y});
